@@ -6,12 +6,15 @@
 }
 
 .menu-container {
-    color: #fff;
-    background-color: #5995DA;
+    color: #006636;
+    background-color: #c0ebcd;
     /* Blue */
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    background-image: url("images/geometric-leaves.png");
+    background-repeat: repeat; /* This will repeat the pattern */
+    background-blend-mode: multiply;
 
 }
 
@@ -40,8 +43,10 @@
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
+    
     display: flex;
     justify-content: center;
+    
 }
 
 .header {
@@ -50,6 +55,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .photo-grid-container {
