@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     background-image: url("images/geometric-leaves.png");
+    /* taken from https://www.toptal.com/designers/subtlepatterns/geometric-leaves-pattern/ */
     background-repeat: repeat; /* This will repeat the pattern */
     background-blend-mode: multiply;
 
