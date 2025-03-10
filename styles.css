@@ -81,15 +81,35 @@
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .first-item {
     order: 1;
+    background-color: #5995DA;
 }
 
-.last-item {
+.second-item {
     order: -1;
+    background-color: coral;
 }
+
+.third-item {
+    order: -1;
+    background-color:aquamarine
+}
+
+.fourth-item {
+    order: -1;
+    background-color:bisque
+}
+
+.fifth-item {
+    order: -1;
+    background-color:lightblue
+}
+
+
 
 .social,
 .subscribe {
