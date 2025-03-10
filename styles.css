@@ -5,6 +5,14 @@
 
 }
 
+img {
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+
 .menu-container {
     color: #006636;
     background-color: #c0ebcd;
@@ -14,7 +22,8 @@
     justify-content: center;
     background-image: url("images/geometric-leaves.png");
     /* taken from https://www.toptal.com/designers/subtlepatterns/geometric-leaves-pattern/ */
-    background-repeat: repeat; /* This will repeat the pattern */
+    background-repeat: repeat;
+    /* This will repeat the pattern */
     background-blend-mode: multiply;
 
 }
@@ -39,15 +48,15 @@
 
 .signup {
     margin-left: auto;
-  }
+}
 
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
-    
+
     display: flex;
     justify-content: center;
-    
+
 }
 
 .header {
@@ -56,14 +65,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .photo-grid-container {
     display: flex;
     justify-content: space-around;
-    margin: 0; /* Ensure no margin */
-    padding: 0; /* Ensure no padding */
+    margin: 0;
+    /* Ensure no margin */
+    padding: 0;
+    /* Ensure no padding */
 }
 
 .photo-grid {
@@ -74,14 +85,17 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 20px 0; /* Adjust this if needed */
+    margin: 20px 0;
+    /* Adjust this if needed */
 }
 
 .photo-grid-item {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     width: 300px;
     height: 300px;
     border-radius: 30px;
+    box-shadow:darkolivegreen 5px 5px 10px;
+    overflow: hidden;
 }
 
 .first-item {
@@ -96,17 +110,17 @@
 
 .third-item {
     order: -1;
-    background-color:aquamarine
+    background-color: aquamarine
 }
 
 .fourth-item {
     order: -1;
-    background-color:bisque
+    background-color: bisque
 }
 
 .fifth-item {
     order: -1;
-    background-color:lightblue
+    background-color: lightblue
 }
 
 
@@ -121,8 +135,10 @@
     display: flex;
     justify-content: space-around;
     column-gap: 20px;
-    margin: 0; /* Ensure no margin */
-    padding: 0; /* Ensure no padding */
+    margin: 0;
+    /* Ensure no margin */
+    padding: 0;
+    /* Ensure no padding */
 }
 
 .footer-item {
@@ -138,7 +154,7 @@
 }
 
 .footer-two {
-    flex-shrink: 5; 
+    flex-shrink: 5;
 }
 
 
@@ -146,6 +162,6 @@
 .footer-one,
 .footer-three {
     background-color: #5995DA;
-    flex: initial; width: 300px;
+    flex: initial;
+    width: 300px;
 }
-
