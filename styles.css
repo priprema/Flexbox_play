@@ -69,6 +69,7 @@
 }
 
 .photo-grid-container {
+    background-color: #c0ebcd;
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -94,8 +95,13 @@
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    box-shadow:darkolivegreen 5px 5px 10px;
     overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.photo-grid-item:hover {
+    box-shadow: darkolivegreen 5px 5px 10px;
+    transform: translate(-5px, -5px); /* Shift up and left */
 }
 
 .first-item {
