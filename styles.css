@@ -63,9 +63,18 @@
     width: 900px;
     height: 300px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+}
 
+#easter-counter {
+    font-size: 24px;
+    color: #5995DA;
+    background-color: #D6E9FE;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .photo-grid-container {
